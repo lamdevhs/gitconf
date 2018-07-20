@@ -13,3 +13,5 @@
 	last = log -1 -p
 	vu = add -vu
 	stashed = stash list
+	cfg = config --global
+	graph = show-branch
