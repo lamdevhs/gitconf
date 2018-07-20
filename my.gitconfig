@@ -1,0 +1,15 @@
+[user]
+	email = lam.dev.hs@gmail.com
+	name = lamdevhs
+[core]
+  editor = vim
+[alias]
+	line = log --oneline -3
+	cached = diff --cached
+	st = status -s
+	publish = commit -veF next_commit_msg
+	liness = log --oneline
+	lines = log --oneline -6
+	last = log -1 -p
+	vu = add -vu
+	stashed = stash list
