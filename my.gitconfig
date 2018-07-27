@@ -10,9 +10,11 @@
 	publish = commit -veF next_commit_msg
 	liness = log --oneline
 	lines = log --oneline -6
-	last = log -1 -p
+	last = log -1
 	vu = add -vu
 	stashed = stash list
 	cfg = config --global
 	graph = show-branch
-	aad = add -v
+	append = add -v
+	past = log -1 -p
+	amend = commit --amend
