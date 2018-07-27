@@ -17,3 +17,4 @@
 	append = add -v
 	vu = add -vu
 	amend = commit --amend
+	aka = ! git config --global --list | grep 'alias' | grep -v aka | sed 's/^alias\\.//g' | sed 's/=/\\t|\\t/g'
