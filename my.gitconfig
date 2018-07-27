@@ -4,17 +4,16 @@
 [core]
   editor = vim
 [alias]
-	line = log --oneline -3
 	cached = diff --cached
 	st = status -s
-	publish = commit -veF next_commit_msg
+	graph = show-branch
+	last = log -1
+	past = log -1 -p
+	line = log --oneline -3
 	liness = log --oneline
 	lines = log --oneline -6
-	last = log -1
-	vu = add -vu
 	stashed = stash list
 	cfg = config --global
-	graph = show-branch
 	append = add -v
-	past = log -1 -p
+	vu = add -vu
 	amend = commit --amend
